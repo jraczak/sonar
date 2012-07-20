@@ -8,6 +8,9 @@
     <%= form_for(@user) do |f| %>
     <%= render '/shared/error_messages' %>
     		 
+      <%= f.label :username %>
+      <%= f.text_field :username %>
+      
       <%= f.label :first_name %>
       <%= f.text_field :first_name %>
       
